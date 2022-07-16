@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(121, 108, 108);
+    overflow-x: hidden;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    color: #333;
+    font-family: sans-serif;
+  
+}
+.flex-item {
+    max-width: 340px;
+    border: .3vw solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    padding: .5vw;
+    background-color: #fff;
+}
+.flex-item:hover {
+    border-color:rgb(35, 147, 32);
+    box-shadow: 0px 0px .9vw rgb(23, 77, 21);
+}
+.flex-item:focus {
+    border-color:rgb(32, 147, 147);
+    box-shadow: 0px 0px .9vw rgb(10, 50, 50);
+}
+
+h3 {
+    color: #aaa;
+}
+p b {
+    color: rgb(35, 147, 32);
+}
+.llave-img {
+    width: 15vw;
+}
+
+form {
+    width: 100vw;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: rgb(59, 120, 76);
+    width: 20vw;
+    height: 6vh;
+    margin: 3vw;
+    border: none;
+    color: #fff;
+    letter-spacing: .3vw;
+    cursor: pointer;
+    transition: .5s;
+}
+input[type="submit"]:hover {
+    background-color: rgb(40, 225, 93);
+}
